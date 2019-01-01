@@ -1,0 +1,2 @@
+GaussianBlur(gray, gray, Size(15, 15), 0, 0);
+HoughCircles(gray, circles, HOUGH_GRADIENT,1.5,200,60,0, 0);
